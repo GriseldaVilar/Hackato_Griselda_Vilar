@@ -3,7 +3,7 @@
 ### Table of contents
 
 #### **1. Introducció: Presentació del conjunt de dades i de les variables seleccionades**
-To import libraries and selected dataframes: Rental Price (base) + City Sound of Barcelona in 2017
+To import libraries and selected dataframes: Rental Price (base) + City Noise/Sound of Barcelona in 2017
 
 [2017_Lloguer_preu_trim](https://opendata-ajuntament.barcelona.cat/data/es/dataset/est-mercat-immobiliari-lloguer-mitja-mensual/resource/0a71a12d-55fa-4a76-b816-4ee55f84d327?view_id=89b47b95-78ba-4996-a3de-f9eabb1492c3)
 
