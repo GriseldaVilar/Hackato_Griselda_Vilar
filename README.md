@@ -1,5 +1,3 @@
-# Hackato_Griselda_Vilar
-
 ### <span style="color:Aquamarine">PROVA DATA SCIENCE HACKATÓ JUMP2DIGITAL</span>
 
 ### Table of contents
