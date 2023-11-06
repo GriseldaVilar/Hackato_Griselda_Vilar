@@ -1,8 +1,8 @@
-### <span style="color:Aquamarine">PROVA DATA SCIENCE HACKATÓ JUMP2DIGITAL</span>
+### <span style="color:Aquamarine">PRUEBA DATA SCIENCE HACKATHON JUMP2DIGITAL</span>
 
 ### Table of contents
 
-#### **1. Introducció: Presentació del conjunt de dades i de les variables seleccionades**
+#### **1. Introducción: Presentación del conjunto de datos y de las variables seleccionadas**
 To import libraries and selected dataframes: Rental Price (base) + City Noise/Sound of Barcelona in 2017
 
 [2017_Lloguer_preu_trim](https://opendata-ajuntament.barcelona.cat/data/es/dataset/est-mercat-immobiliari-lloguer-mitja-mensual/resource/0a71a12d-55fa-4a76-b816-4ee55f84d327?view_id=89b47b95-78ba-4996-a3de-f9eabb1492c3)
@@ -19,7 +19,7 @@ To calculate threshold of lost data, if the percentage is higher than 5% we must
 I verify that I need to convert the Value column of the Sound Range dataset from percentage to float in order to generate a Score Index per neighborhood (1-10).
 Also I  verify that the price variable is distributed over 4 quarters and is divided into price per month and per square meter, so we can subsequently divide/expand the variable into two columns and calculate the averages and means. In this way we reduce duplicate data.
 
-#### **2 Depuració de dades: Descripció detallada de les tècniques de preprocessat aplicades i els criteris d’avaluació utilitzats**
+#### **2 Depuración de datos: Descripción detallada de las técnicas de preprocesado aplicadas y los criterios de evaluación utilizados**
 ##### **2.1 Dataset operations and analysis. Final dataset configuration**
 
 I perform operations for the datasets and the configuration of the final dataframe.
@@ -30,7 +30,7 @@ The dataset Rental Price (base) is divided into two datasets: monthly price and 
 To guarantee the quality of thedata, the columns with null data in Price are selected and filled with the prime values of the Price by Neighborhood columns.
 Afterwards, the annual average is calculated per month and square meter grouped by neighborhoods.
 
-#### **3. Resultats: Presentació dels resultats obtinguts**
+#### **3. Resultados: Presentación de los resultados obtenidos**
 ##### **3.1 Correlations and linear regressions. Conclusions**
 
 Finally I create the final project dataset uniting final Rental Price (base) and City Sound dataframes ordered, analyzed, cleaned and in a single dataframe.
@@ -40,7 +40,7 @@ To visualize the data, I generate:
 
 2)Subboxplot grouped by colors and the neighborhood code to observe the median and quartiles and compare the distribution of the data 
 
-#### **4. Conclusions: Principals inferències derivades dels resultats aconseguits**
+#### **4. Conclusiones: Principales inferencias derivadas de los resultados conseguidos**
 ##### **4.1 Linear regression: Noise index score & Average monthly price**
 
 Finally, the linear regression between the related variables is calculated and represented in a graph
