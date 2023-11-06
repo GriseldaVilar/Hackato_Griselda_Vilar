@@ -1,6 +1,6 @@
-## <span style="color:Aquamarine">PROVA DATA SCIENCE HACKATÓ JUMP2DIGITAL</span>
+### <span style="color:Aquamarine">PROVA DATA SCIENCE HACKATÓ JUMP2DIGITAL</span>
 
-## Table of contents
+### Table of contents
 
 ### **1. Introducció: Presentació del conjunt de dades i de les variables seleccionades**
 To import libraries and selected dataframes: Rental Price (base) + City Noise/Sound of Barcelona in 2017
