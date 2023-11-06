@@ -40,11 +40,13 @@ To visualize the data, I generate:
 
 2)Subboxplot grouped by colors and the neighborhood code to observe the median and quartiles and compare the distribution of the data 
 
+3)Pearson's Correlation between the numerical variables and represent them using graphs
+
 #### **4. Conclusiones: Principales inferencias derivadas de los resultados conseguidos**
 ##### **4.1 Linear regression: Noise index score & Average monthly price**
 
 Finally, the linear regression between the related variables is calculated and represented in a graph
-A correlation coefficient of 1 is observed between the variables "Index score points" and "Monthly price".
-#approximately 1 are the ones that are most related to the index score points:
+A correlation coefficient of 1 is observed between the variables "Index score points/noise_range" and "Monthly price".
+#approximately 1 are the ones that are most related to the index score points.
+To conclude, a Linear Regression and a prediction of the model (test/training) are calculated with the two key variables selected after correlations and estimates and the relationship between the variables (index_points/noise_range) is represented, based on our previously calculated variable (3. and 4.) and the monthly average price.
 
-3)Pearson's Correlation between the numerical variables and represent them using graphs
