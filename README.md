@@ -17,8 +17,8 @@ To calculate threshold of lost data, if the percentage is higher than 5% we must
 I verify that I need to convert the Value column of the Sound Range dataset from percentage to float in order to generate a Score Index per neighborhood (1-10).
 Also I  verify that the price variable is distributed over 4 quarters and is divided into price per month and per square meter, so we can subsequently divide/expand the variable into two columns and calculate the averages and means. In this way we reduce duplicate data.
 
-#### **2.1 Depuració de dades: Descripció detallada de les tècniques de preprocessat aplicades i els criteris d’avaluació utilitzats**
-##### **2. Dataset operations and analysis. Final dataset configuration**
+#### **2 Depuració de dades: Descripció detallada de les tècniques de preprocessat aplicades i els criteris d’avaluació utilitzats**
+##### **2.1 Dataset operations and analysis. Final dataset configuration**
 I perform operations for the datasets and the configuration of the final dataframe.
 In the City Sound Range dataset, a score index adjusted to the value (%) is configured according to the range column value (dB). Likewise, the object variable "Loguer_mitja" is transformed into a string variable to be able to divide/expand the columns in the two categories (e/month and m2)
 I have grouped by the value TOTAL_DEN since it contains the sections (day, afternoon and night) and with this a standardized index is generated that represents the noise records by neighborhood in a weighted way.
